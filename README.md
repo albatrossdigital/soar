@@ -36,9 +36,11 @@ Soar was developed and is maintained by [Albatross Digital](http://albatrossdigi
 
 Manually Building
 -----------------
-  drush verify-makefile drupal-org.make
-  drush make --no-cache --drupal-org drupal-org.make tmp
-  rsync -a tmp/* .
-  rm -r tmp
+```
+drush verify-makefile drupal-org.make
+drush make --no-cache --drupal-org drupal-org.make tmp
+rsync -a tmp/* .
+rm -r tmp
+```
 
 
