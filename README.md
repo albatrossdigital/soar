@@ -10,9 +10,7 @@ Key Features
 + Standardize your responsive design and theming workflow with Twitter Bootstrap and SASS mixins
 + Setup grunt to watch for SASS changes, auto-reload your browser, and check theme optimization
 + Panels in place editor for a nice page builder experience
-+ Integrated media, CKEditor and Quickedit modules
-+ Advanced CKEditor widgets for nice custom layouts
-
++ Integrated media and Quickedit modules, with CKEditor enhanced with advanced widgets 
 
 Installation
 ------------
@@ -21,10 +19,7 @@ Soar is fully packaged by Drupal.org and can be downloaded and installed on your
 
 Other Features
 --------------
-+ Beans for exportable blocks
-+ Quickly create your sub-theme with Grunt (and no search and replace)
-+ Bash scripts to install LiveReload so you don't need to hit F5 everytime you edit your SASS file
-+ Administration Menu is used for superuser, while Toolbar is used for all other administration users
++ Grunt workflow for automatic SASS compilation and optimization, LiveReload, easy subtheme creation
 + Easily add support for slideshows, event calendars, webforms (with form builder) and advanced workflows (with Workbench), by enabling optional features
 
 Drupal Structure Document
@@ -37,7 +32,7 @@ https://docs.google.com/spreadsheet/ccc?key=0Alw0s_pQVmyXdFRwWmxLWnFfNHFSM1BSQkh
 
 Who
 ---
-Soar was developed and is maintained by Albatross Digital. We use it as the starting-point for our projects.
+Soar was developed and is maintained by [Albatross Digital](http://albatrossdigital.com). We use it as the starting-point for our projects.
 
 Manually Building
 -----------------
