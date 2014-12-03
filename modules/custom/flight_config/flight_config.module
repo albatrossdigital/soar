@@ -24,6 +24,23 @@ function flight_config_libraries_info() {
       ),
     ),
   );
+  $libraries['backbone'] = array(
+    'name' => 'backbone.js',
+    'vendor url' => 'http://backbone.org',
+    'download url' => 'http://documentcloud.github.io/underscore/underscore-min.js',
+    'version arguments' => array(
+      'file' => 'backbone-min.js',
+      // 1.x: Underscore.js 1.4.4
+      'pattern' => '/Underscore.js\s?([0-9\.]+)/',
+      'lines' => 2,
+      'cols' => 200,
+    ),
+    'files' => array(
+      'js' => array(
+        'backbone-min.js',
+      ),
+    ),
+  );
 
   return $libraries;
 }
